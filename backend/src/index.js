@@ -11,7 +11,7 @@ import path from "path";
 
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "http://localhost:5173" || "https://talkup-zo5e.onrender.com",
     credentials: true,
 }));
 
