@@ -11,7 +11,9 @@ import path from "path";
 
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:5173" || "https://talkup-zo5e.onrender.com",
+    origin: process.env.NODE_ENV === "production"
+    ? "https://talkup-zo5e.onrender.com"
+    : "http://localhost:5173",
     credentials: true,
 }));
 
@@ -26,7 +28,7 @@ const __dirname = path.resolve();
 if (process.env.NODE_ENV === "production") {
     app.use(express.static(path.join(__dirname, "../frontend/dist")));
 
-    app.get("/:path(*)", (req, res) => {
+    app.get("/*", (req, res) => {
         res.sendFile(path.join(__dirname, "../frontend", "dist", "index.html"));
     });
 };
