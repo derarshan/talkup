@@ -97,8 +97,6 @@ export const updateProfile = async (req, res) => {
         res.status(200).json(updatedUser);
 
         console.log("userId:", userId);
-console.log("uploadRes.secure_url:", uploadRes.secure_url);
-console.log("updatedUser:", updatedUser);
     } catch (err) {
         console.error("Error in updateUser controller: ", err.message, err.stack);
         res.status(500).json({ message: "Internal server error" });
