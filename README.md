@@ -26,24 +26,27 @@ TalkUp is a full-stack real-time chatting app that makes connecting with friends
   
 ---
 
-## Screenshots
+## 📸 Screenshots  
 
-### 🔑 Login
-![Login](screenshots/login.png)  
-### 🆕 Sign Up
-![Sign Up](screenshots/signup.png)  
-### 🏠 Home
-![Home](screenshots/home.png)  
-### 💬 Chat
-![Chat](screenshots/chat.png)  
-### 💬 Chat (Alternate View)
-![Chat 2](screenshots/chat2.png)  
-### 👤 Profile
-![Profile](screenshots/profile.png)  
-### ⚙️ Settings
-![Settings](screenshots/settings.png)  
-### 🎨 Themes
-![Themes](screenshots/themes.png) 
+<p align="center">
+  <img src="screenshots/login.png" alt="Login" width="45%"/>
+  <img src="screenshots/signup.png" alt="Sign Up" width="45%"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/home.png" alt="Home" width="45%"/>
+  <img src="screenshots/chat.png" alt="Chat" width="45%"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/chat2.png" alt="Chat 2" width="45%"/>
+  <img src="screenshots/profile.png" alt="Profile" width="45%"/>
+</p>
+
+<p align="center">
+  <img src="screenshots/settings.png" alt="Settings" width="45%"/>
+  <img src="screenshots/themes.png" alt="Themes" width="45%"/>
+</p>
 
 ---
 
