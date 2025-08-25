@@ -22,7 +22,7 @@ TalkUp is a full-stack real-time chatting app that makes connecting with friends
 - Node.js  
 - WebSockets (Socket.IO)  
 - Cloudinary (for media uploads)  
-- JWT Authentication (with ncrypted password saving in the database)
+- JWT Authentication (with encrypted password saving in the database)
   
 ---
 
